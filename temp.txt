@@ -1,0 +1,3 @@
+Search functionality to search a specific record (exact search/partial search)
+Add Records
+Delete Records

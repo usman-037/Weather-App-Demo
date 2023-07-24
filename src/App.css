@@ -1,0 +1,79 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.App {
+  text-align: center;
+}
+.App-header {
+  min-height: 92.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.aboutus {
+  align-items: center;
+  display: block;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  opacity: 60%;
+}
+.containerr {
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+
+.resultsparent {
+  justify-content: center;
+  display: flex;
+}
+.results {
+  border-style: groove;
+  border-radius: 5px;
+  width: 30%;
+  box-shadow: inset 0 0 10px #000000;
+  opacity: 60%;
+}
+
+.formdata {
+  display: flex;
+  justify-content: center;
+}
+.searchBox {
+  background-color: rgb(102, 125, 145);
+  width: fit-content;
+  color: whitesmoke;
+}
+.searchBtn {
+  background-color: rgb(33, 47, 67);
+  color: aqua;
+}
+.searchBtn:hover {
+  background-color: rgb(33, 47, 60);
+  color: cadetblue;
+}
+
+.parentalertoff {
+  display: none;
+}
+.parentalert {
+  justify-content: center;
+  display: flex;
+}
+.alertbg {
+  background-color: rgb(76, 27, 27);
+  color: rgb(182, 131, 144);
+  width: 30%;
+}
+.favbtn {
+  background-color: rgb(102, 125, 145);
+  border: 1px;
+  color: aqua;
+  border-radius: "11px";
+  cursor: "pointer";
+}
+.favbtn:hover {
+  background-color: rgb(33, 47, 60);
+  color: cadetblue;
+}
